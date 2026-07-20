@@ -6,7 +6,7 @@ const swaggerSpec = require('./src/docs/swagger');
 
 const {
     verifyAppToken
-} = require('./src/middlewares/auth');
+} = require('./src/middlewares/authMiddlewares');
 
 
 dotenv.config();
